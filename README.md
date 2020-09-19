@@ -41,5 +41,5 @@ python main.py
 ## Citation
 If you find this useful for your research, we would be appreciated if you cite the following paper:
 ```
-
+Zemin Liu, Wentao Zhang, Yuan Fang, Xinming Zhang, Steven C.H. Hoi. 2020. Towards Locality-Aware Meta-Learning of Tail Node Embeddings on Networks. In The 29th ACM International Conference on Information and Knowledge Management (CIKM’20), October 19–23, 2020, Virtual Event, Ireland. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3340531.3411910
 ```
