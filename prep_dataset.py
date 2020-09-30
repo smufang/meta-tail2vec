@@ -381,7 +381,7 @@ def generate_train_test_candidate_wiki(graph_dict, sparse_node_set, node_type_di
                 for adj in graph_dict[n]:
                     if adj in sparse_node_set:
                         neighbor -= 1
-                if 5 < neighbor <= 20:
+                if 7 < neighbor <= 20:
                     train_node_candidate_set.add(n)
     test_nodes_list_1, _, _, _ = train_test_split(list(test_node_candidate_set_1),
                                                   range(len(test_node_candidate_set_1)), train_size=30,
