@@ -21,7 +21,7 @@ To download the original datasets:
 	- data/: processed data, including train / test data splitting 
 	- prep_dataset.py: Prepare necessary data for data_generator.py. When you use different datasets, remember to change the dataset name in line 3.
 	- data_generator.py: Generate pipeline for the model, specifically the meta-training and meta-testing tasks.
-	- main.py: The main entrance of the model. You can adjust training batch number and pipeline data batch number here.
+	- main.py: The main entrance of the model. You can adjust training batch number and pipeline data directory, dataset name, number shots etc in line 65--70.
 	- maml.py: The MAML framework.
 	- multiclass_task.py: example code for the downstream task of node classification (multi-class setting) and evaluation
 	- multilabel_task.py: example code for the downstream task of node classification (multi-label setting) and evaluation
